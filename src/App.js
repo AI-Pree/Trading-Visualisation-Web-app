@@ -1,10 +1,13 @@
-import './App.css';
+import * as React from 'react';
+import Chart from './components/charts/chart';
 
 function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+    return(
+        <>
+            <Chart height="50" width="50"/>
+        </>
+    );
+
 }
 
 export default App;
