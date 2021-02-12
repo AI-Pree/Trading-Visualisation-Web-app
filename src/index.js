@@ -12,17 +12,17 @@ ReactDOM.render(
 );
 
 //sending results to the analytics
-function sendToAnalytics(metric) {
-  const body = JSON.stringify(metric);
-  const url = "";
+// function sendToAnalytics(metric) {
+//   const body = JSON.stringify(metric);
+//   const url = "";
 
-  //use navigator.sendBeacon() if available, falling back to fetch
-  if (navigator.sendBeacon){
-    navigator.sendBeacon(url, body);
-  } else {
-    fetch(url, {body, method: "POST", keepalive: true});    
-  }
-}
+//   //use navigator.sendBeacon() if available, falling back to fetch
+//   if (navigator.sendBeacon){
+//     navigator.sendBeacon(url, body);
+//   } else {
+//     fetch(url, {body, method: "POST", keepalive: true});    
+//   }
+// }
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
