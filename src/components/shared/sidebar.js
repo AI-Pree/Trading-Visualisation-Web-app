@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, withRouter} from "react-router-dom";
 
 
-export class Footer extends React.Component {
+export class Sidebar extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -11,7 +11,7 @@ export class Footer extends React.Component {
     render() {
         return(
             <div>
-                <div className="footer">
+                <div className="sidebar">
                     <div className="container">
                     </div>
                 </div>
@@ -20,4 +20,4 @@ export class Footer extends React.Component {
     }
 }
 
-export default withRouter(Footer);
+export default withRouter(Sidebar);
