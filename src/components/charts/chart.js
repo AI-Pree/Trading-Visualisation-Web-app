@@ -7,7 +7,7 @@ export function Chart({width, height, data}){
     return(
         <>      
             <svg viewBox={viewBox_value}>
-                <path d={data} fill="none" stroke="green" strokeWidth="1" strokeMiterlimit="1"></path>
+                <path d={data} fill="none" stroke="steelblue" strokeWidth="1" strokeMiterlimit="1"></path>
             </svg>
         </>
         
